@@ -3,6 +3,7 @@ import Cards from '../cards/Cards';
 
 
 const Card = ({click}) => {
+    // fake data
  const arr= [{
     img:'https://scrc.siu.edu/_common/images/new-images/rb3.jpg' ,
    title:'Biology',

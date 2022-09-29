@@ -4,13 +4,19 @@ import Header from '../Header/Header';
 import './main.css';
 
 
-const Main = () => {
+ 
+
+
+
+const Main = ({toast}) => {
 
     
    
-   
+//    usestate
+
     const [time,setTotal]=useState(0)
     const [breakTime,setBreakTime] = useState(0)
+
       
     const click=(value)=>{
         let newValue = parseFloat(value)
@@ -59,7 +65,7 @@ const Main = () => {
           <h5>  Exercise Details</h5>
           <h6>Exercise time  <span className='ms-3'>{time} minute</span></h6>
           <h6>Break Time <span className='ms-3'>{breakTime} minute</span></h6>
-          <button className='btn btn-primary mt-5'>Activity Completed</button>
+          <button onClick={toast}  className='btn btn-primary mt-5'>Activity Completed</button>
          
           
           </div>
