@@ -3,4 +3,9 @@
 }
 .display-count{
     height: 600px;
+    border-radius:10px ;
+}
+.display-page{
+    background-color: aqua;
+    
 }

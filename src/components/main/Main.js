@@ -1,16 +1,33 @@
-import React from 'react';
+import React, {  useState } from 'react';
 import Card from '../card/Card';
 import Header from '../Header/Header';
 import './main.css';
 
+
 const Main = () => {
+
+    
+   
+   
+    const [time,setTotal]=useState(0)
+      
+    const click=(value)=>{
+        let newValue = parseFloat(value)
+      let  total = time+newValue;
+        setTotal(total)
+        
+    }
+
+ 
+     
+    
     return (
         <div className='row '>
-            <div className="display-page ps-3 col-9 container">
+            <div className="display-page ps-3 col-9 container rounded">
 
             <Header></Header>
 
-            <Card></Card>
+            <Card click={click}></Card>
             </div>
             <div className="display-count col-3 bg-warning container position-sticky pt-4">
         <div className="profile d-flex">
@@ -23,16 +40,18 @@ const Main = () => {
         <div className="activity mt-5">
             <h5 >Add A Break</h5>
             <div className='break-time rounded p-2'>
-        <span className='rounded-circle m-1 p-1 bg-white'>10S</span>
-        <span className='rounded-circle m-1 p-1 bg-white'>20S</span>
-        <span className='rounded-circle m-1 p-1 bg-white'>30S</span>
-        <span className='rounded-circle m-1 p-1 bg-white'>40S</span>
-        <span className='rounded-circle m-1 p-1 bg-white'>50S</span>
+        <button className='rounded-circle m-1 p-1   btn btn-primary'>10m</button>
+        <button className='rounded-circle m-1 p-1 btn btn-primary'>10m</button>
+        <button className='rounded-circle m-1 p-1  btn btn-primary'>10m</button>
+        <button className='rounded-circle m-1 p-1   btn btn-primary'>10m</button>
+        
+        
+       
             </div>
         </div>
         <div className='exercise-details mt-5'>
           <h5>  Exercise Details</h5>
-          <h6>Exercise time  <span className='ms-3'>200 second</span></h6>
+          <h6>Exercise time  <span className='ms-3'>{time} minute</span></h6>
           <h6>Break Time <span className='ms-3'>15 second</span></h6>
           <button className='btn btn-primary mt-5'>Activity Completed</button>
          
