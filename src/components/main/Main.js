@@ -10,12 +10,18 @@ const Main = () => {
    
    
     const [time,setTotal]=useState(0)
+    const [breakTime,setBreakTime] = useState(0)
       
     const click=(value)=>{
         let newValue = parseFloat(value)
       let  total = time+newValue;
         setTotal(total)
         
+    }
+
+    const breakTimeLoad=(time)=>{
+
+        setBreakTime(time);
     }
 
  
@@ -40,10 +46,10 @@ const Main = () => {
         <div className="activity mt-5">
             <h5 >Add A Break</h5>
             <div className='break-time rounded p-2'>
-        <button className='rounded-circle m-1 p-1   btn btn-primary'>10m</button>
-        <button className='rounded-circle m-1 p-1 btn btn-primary'>10m</button>
-        <button className='rounded-circle m-1 p-1  btn btn-primary'>10m</button>
-        <button className='rounded-circle m-1 p-1   btn btn-primary'>10m</button>
+        <button onClick={()=>breakTimeLoad(10)} className='rounded-circle m-1 p-1   btn btn-primary'>10m</button>
+        <button  onClick={()=>breakTimeLoad(20)} className='rounded-circle m-1 p-1 btn btn-primary'>10m</button>
+        <button  onClick={()=>breakTimeLoad(30)} className='rounded-circle m-1 p-1  btn btn-primary'>10m</button>
+        <button onClick={()=>breakTimeLoad(40)}  className='rounded-circle m-1 p-1   btn btn-primary'>10m</button>
         
         
        
@@ -52,7 +58,7 @@ const Main = () => {
         <div className='exercise-details mt-5'>
           <h5>  Exercise Details</h5>
           <h6>Exercise time  <span className='ms-3'>{time} minute</span></h6>
-          <h6>Break Time <span className='ms-3'>15 second</span></h6>
+          <h6>Break Time <span className='ms-3'>{breakTime} minute</span></h6>
           <button className='btn btn-primary mt-5'>Activity Completed</button>
          
           
