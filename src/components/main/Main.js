@@ -41,7 +41,7 @@ const Main = ({toast}) => {
 
             <Card click={click}></Card>
             </div>
-            <div className="display-count col-3 bg-warning container position-sticky pt-4">
+            <div className="display-count col-3 bg-warning container position-sticky top-0 pt-4">
         <div className="profile d-flex">
             <img className='rounded-circle w-25 me-2 h-20 img-fluid' src="https://th.bing.com/th/id/R.d40592e743968de76e68de6788915b78?rik=TDOsUXv7jeuZUA&riu=http%3a%2f%2fthispix.com%2fwp-content%2fuploads%2f2015%2f06%2f015.jpg&ehk=d0D7svDznQs8cJmz6n0GmeemmmATSz4xoV9aTTxCWMg%3d&risl=&pid=ImgRaw&r=0" alt="" />
             <div>
