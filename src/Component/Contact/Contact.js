@@ -1,11 +1,12 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import useTitle from '../Hooks/useTitle';
 
 const Contact = () => {
 
 
     const form = useRef();
-
+    useTitle('contact')
 
 
 
@@ -17,6 +18,7 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           alert('Email sent successfully')
+          event.target.reset()
       }, (error) => {
           console.log(error.text);
       });
@@ -42,7 +44,7 @@ const Contact = () => {
                 </div>
                 <div>
                     <label className="label">
-                        <span className="label-text mt-3 font-semibold">How I help you?</span>
+                        <span className="label-text mt-3 font-semibold">How can I help you?</span>
                     </label> 
                     <textarea name='message' className="textarea w-full textarea-bordered h-24" placeholder="Please tell me details"></textarea>
                     </div>

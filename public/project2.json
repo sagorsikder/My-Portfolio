@@ -1,0 +1,15 @@
+{
+    "id":2,
+    "name":"Bright Photography",
+    "details":"You can easily hire the best photographer from this website.",
+    "img1":"https://i.ibb.co/WcJKqxH/bright-1.png",
+    "img2":"https://i.ibb.co/zS2MpVf/bright-2.png",
+    "img3":"https://i.ibb.co/TtSM8Cd/bright-3.png",
+    "img4":"https://i.ibb.co/TgS9YzG/bright-4.png",
+    "details1":"This websites name is Bright Photography. This website is made for photographers. These pictures are on the Service category page and review page of my website. The first page represents this service and the second page is for user review. The user can write his own review for my website. Then store this review.",
+    
+    "details2":"These pictures are of the My review page. this page show all review of this user. Users can delete or update any review from this page. This is a private route. So user first of all sign up/login then visit this page.This website made with React, tailwind, daisyUI, firebase.",
+    "client":"https://github.com/sagorsikder/Bright-photography-client",
+    "server":"https://github.com/sagorsikder/Bright-photograpy-server",
+    "live":"https://simple-firebase-authenti-466e3.web.app/"
+ }

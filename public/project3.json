@@ -1,0 +1,14 @@
+{
+    "id":3,
+    "name":"Doctors Portal",
+    "details":"Patients can easily make an appointment from this website.",
+    "img1":"https://i.ibb.co/9sJXX8D/doctor-1.png",
+    "img2":"https://i.ibb.co/tHrrvQg/doctor-2.png",
+    "img3":"https://i.ibb.co/FXfq3Qd/doctor-3.png",
+    "img4":"https://i.ibb.co/xHR6hCg/doctor-4.png",
+    "details1":"This website's name is Doctor-portal. This website is made for patients to make an appointment easily from home. The first picture is the home page and the second picture is the appointment page of my website. The home page represents this website and the appointment page contains a calendar and shows the available schedule. Patients make an appointment from this page.",
+    "details2":"These pictures are of the Service category and appointment pages of my website. The first image of the appointment page. The second image of the Service category. The service category shows all service opportunities from this website. This website is made with React, tailwind, daisyUI, and firebase.",
+    "client":"https://github.com/sagorsikder/Doctors-portal-client",
+    "server":"https://github.com/sagorsikder/Doctors-portal-server",
+    "live":"https://doctors-portal-a8b76.web.app/"
+ }

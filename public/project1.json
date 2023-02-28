@@ -1,0 +1,15 @@
+{
+    "id":1,
+    "name":"Old-is-gold",
+    "img":"resaleWebsite",
+    "details":"You can easily buy or sell any used bike with this website.",
+    "img1":"https://i.ibb.co/Jk87BGB/resale-1.png",
+    "img2":"https://i.ibb.co/6ghBQJB/resale-2.png",
+    "img3":"https://i.ibb.co/vsTX3sj/resale-3.png",
+    "img4":"https://i.ibb.co/FgD1B0R/resale-4.png",
+    "details1":"This website's name is Old-is-gold. This website is made for used bike sale purposes. These pictures are the home page and marketplace page of my website. The home page represents this website and the marketplace page show all sell post. Buyer book order from this page. The buyer booked with his information, and location.",
+    "details2":"These pictures are of the Dashboard page of my website. The first image shows all sellers who can use my website(only the admin can access this opportunity). Admin can delete any user and any buyer. The second image of add service page(only the seller can access this opportunity). Seller add new sell post in this page. Here admin, buyer, and seller play different role.This website made with React, tailwind, daisyUI, firebase.",
+    "client":"https://github.com/sagorsikder/Old-is-gold-client",
+    "server":"https://github.com/sagorsikder/Old-is-gold-server",
+    "live":"https://old-is-gold-6eb1b.web.app/"
+ }
